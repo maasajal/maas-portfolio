@@ -106,13 +106,33 @@ nav a {
   margin: 120px 0;
   padding: 100px 50px;
 }
-.about-me > p {
+.about-me > p,
+.whatIdo > p {
   padding: 30px 0;
 }
-.about-info-container {
+.about-info-container,
+.skills-container {
   display: flex;
   justify-content: space-around;
 }
 .about-info-container h3 {
   color: #474747;
+}
+
+/* What I do styles */
+.whatIdo > h2,
+.whatIdo > p {
+  text-align: center;
+}
+.skills-container {
+  gap: 24px;
+}
+.skill {
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skills-container .skill-title {
+    padding: 18px 0;
 }
