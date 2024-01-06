@@ -148,5 +148,23 @@ nav a {
 }
 .resume > h2 {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
+}
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
+.resume-container h2 {
+  margin-bottom: 40px;
+}
+.resume-container h4,
+.resume-container p {
+  padding: 10px 0;
+}
+.resume-container hr {
+  margin: 30px 0;
+}
+.download-cv {
+  text-align: center;
+  margin: 50px 0;
 }
