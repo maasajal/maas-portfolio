@@ -30,7 +30,6 @@ nav {
   color: #181818;
   font-size: 45px;
   font-weight: 800;
-  /* margin-left: 50px; */
 }
 nav > ul {
   display: flex;
@@ -48,11 +47,32 @@ nav a {
 /* Header styles */
 .header {
   background-color: beige;
+  background-image: url("/images/header_bg.png"), url("/images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, top left;
+  padding-top: 25px;
 }
 .banner {
   padding: 30px 30px 0 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+.banner .banner-content {
+  max-width: 600px;
+}
+.banner .banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+.banner .banner-title {
+  font-size: 80px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.banner-description {
+  margin: 10px 0;
 }
 .banner button {
   margin-top: 20px;
